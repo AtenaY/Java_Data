@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date in Java</title>
+</head>
+<body>
+    <script>
+        var today = new Date();
+        document.write(today);
+        document.write('<br/>')
+        var birthday = new Date(1990, 7, 27);
+        document.write(birthday);
+        document.write('<br/>')
+        var halloween = new Date('October 31 2022')
+        document.write(halloween);
+        document.write('<br/>');
+        var valentine = new Date('Februrary 14 2023 20:30:45');
+        document.write(valentine);
+    </script>
+     <br/>
+    <script>
+        var condition = true;
+        if(condition) {
+            document.write('Condition is true');
+        } else {
+            document.write('Condition is false');
+        }
+    </script>
+    <br/>
+    <script>
+        var age = 22;
+        if (age >=18){
+            document.write('You are an adult');
+        } else{
+            document.write('You are a minor');
+        }
+    </script>
+    <br/>
+    <script>
+        var age = 15;
+        if(age<=12){
+            document.write('Child fare');
+        } else if(age>12 && age <60){
+            document.write('Adult fare');
+        } else {document.write('Senior discount')};
+    </script>
+</body>
+</html>
